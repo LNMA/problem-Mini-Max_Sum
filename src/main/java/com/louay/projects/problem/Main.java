@@ -32,8 +32,8 @@ public class Main {
         return length;
     }
 
-    public static int miniSum(int [] arr){
-        int result = 0;
+    public static long miniSum(int [] arr){
+        long result = 0;
         for (int i = 0; i < arr.length ; i++) {
             result += arr[i];
             if (i == 3){
@@ -43,8 +43,8 @@ public class Main {
         return result;
     }
 
-    public static int maxSum(int [] arr){
-        int result = 0;
+    public static long maxSum(int [] arr){
+        long result = 0;
         int counter = 0;
         for (int i = arr.length-1; i >= 0 ; i--) {
             result += arr[i];
